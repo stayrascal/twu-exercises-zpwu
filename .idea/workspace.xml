@@ -4,7 +4,6 @@
     <list default="true" id="aee47c49-1d96-4053-aeb9-5ff197c043b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/exercises/Diamond.java" afterPath="$PROJECT_DIR$/src/com/twu/exercises/Diamond.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java" afterPath="$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com.twu.exercises/TriangleTest.java" afterPath="$PROJECT_DIR$/test/com.twu.exercises/TriangleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +42,8 @@
       <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7031802">
-              <caret line="45" column="7" selection-start-line="41" selection-start-column="4" selection-end-line="45" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.66607773">
+              <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
@@ -545,7 +544,7 @@
       <created>1453974246953</created>
       <option name="number" value="Default" />
       <updated>1453974246953</updated>
-      <workItem from="1453974249918" duration="4558000" />
+      <workItem from="1453974249918" duration="4774000" />
     </task>
     <task id="LOCAL-00001" summary="[ stayrascal ] add class Console and complete the test case that print one asterisk">
       <created>1453975368796</created>
@@ -577,11 +576,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453979005329</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[ stayrascal ] complete the test case that print a diamond">
+      <created>1453980030871</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1453980030871</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4558000" />
+    <option name="totallyTimeSpent" value="4774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -624,7 +629,8 @@
     <MESSAGE value="[ stayrascal ] complete the test case that print a vertical line" />
     <MESSAGE value="[ stayrascal ] complete the test case that print a right trangle" />
     <MESSAGE value="[ stayrascal ] complete the test case that print a centered triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] complete the test case that print a centered triangle" />
+    <MESSAGE value="[ stayrascal ] complete the test case that print a diamond" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] complete the test case that print a diamond" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -665,7 +671,7 @@
     <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -674,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7031802">
-          <caret line="45" column="7" selection-start-line="41" selection-start-column="4" selection-end-line="45" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.66607773">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
           <folding>
             <element signature="e#124#125#0" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
