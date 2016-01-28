@@ -29,4 +29,11 @@ public class PrimeTest {
         assertEquals(primeList.get(2), Integer.valueOf(5));
 
     }
+
+    @Test
+    public void should_return_empty_list_when_factor_negative_number() throws Exception {
+        Prime prime = new Prime();
+        List<Integer> primeList = prime.generate(-91);
+        assertEquals(primeList.size(), 0);
+    }
 }
