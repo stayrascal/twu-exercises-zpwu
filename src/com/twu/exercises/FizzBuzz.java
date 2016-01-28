@@ -1,12 +1,11 @@
 package com.twu.exercises;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-
 public class FizzBuzz {
 
     private final Console console;
+    private final String fizzBuzz = "FizzBuzz";
+    private final String fizz = "Fizz";
+    private final String buzz = "Buzz";
 
     public FizzBuzz(Console console) {
         this.console = console;
@@ -25,18 +24,26 @@ public class FizzBuzz {
 
 
     public void printNumberWithFizzAndBuzz(int topNumber) {
-        for (int i = 1; i <= topNumber; i++) {
-            if (i % 3 == 0) {
-                if (i % 5 == 0) {
-                    printLine("FizzBuzz");
-                } else {
-                    printLine("Fizz");
-                }
-            } else if (i % 5 == 0) {
-                printLine("Buzz");
-            } else {
-                printLine(String.valueOf(i));
-            }
+        for (int index = 1; index <= topNumber; index++) {
+            if (isDivisibleByThree(index)) {
+                printFizzOrFizzBuzz(index, fizzBuzz, fizz);
+            } else printFizzOrFizzBuzz(index, buzz, String.valueOf(index));
         }
+    }
+
+    private void printFizzOrFizzBuzz(int number, String divisibleMessage, String inDivisibleMessage) {
+        if (isDivisibleByFive(number)) {
+            printLine(divisibleMessage);
+        } else {
+            printLine(inDivisibleMessage);
+        }
+    }
+
+    private boolean isDivisibleByFive(int number) {
+        return number % 5 == 0;
+    }
+
+    private boolean isDivisibleByThree(int number) {
+        return number % 3 == 0;
     }
 }

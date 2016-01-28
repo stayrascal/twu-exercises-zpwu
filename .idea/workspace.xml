@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aee47c49-1d96-4053-aeb9-5ff197c043b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/exercises/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/com/twu/exercises/FizzBuzz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com.twu.exercises/FizzBuzzTest.java" afterPath="$PROJECT_DIR$/test/com.twu.exercises/FizzBuzzTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
@@ -42,14 +41,17 @@
       <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7773852">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.9257951">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -597,7 +599,7 @@
       <created>1453974246953</created>
       <option name="number" value="Default" />
       <updated>1453974246953</updated>
-      <workItem from="1453974249918" duration="8059000" />
+      <workItem from="1453974249918" duration="8597000" />
     </task>
     <task id="LOCAL-00001" summary="[ stayrascal ] add class Console and complete the test case that print one asterisk">
       <created>1453975368796</created>
@@ -665,11 +667,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453982159325</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[ stayrascal ] add test case about print fizz or buzz">
+      <created>1453983546065</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1453983546065</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8059000" />
+    <option name="totallyTimeSpent" value="8597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -718,7 +726,8 @@
     <MESSAGE value="[ stayrascal ] refactor: extract method about draw diamond" />
     <MESSAGE value="[ stayrascal ] clean code" />
     <MESSAGE value="[ stayrascal ] add test case about print continuous number" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] add test case about print continuous number" />
+    <MESSAGE value="[ stayrascal ] add test case about print fizz or buzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] add test case about print fizz or buzz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -793,14 +802,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7773852">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.9257951">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
           </folding>
         </state>
       </provider>
