@@ -8,16 +8,16 @@ public class Diamond {
         this.console = console;
     }
 
-    private void print(String message){
+    private void print(String message) {
         console.print(message);
     }
 
-    private void printLine(int spaceNumber, int asterisksNumber){
+    private void printLine(int spaceNumber, int asterisksNumber) {
         StringBuilder message = new StringBuilder();
-        while (spaceNumber-- >0){
+        while (spaceNumber-- > 0) {
             message.append(" ");
         }
-        while (asterisksNumber-- >0){
+        while (asterisksNumber-- > 0) {
             message.append("*");
         }
         print(message.toString());
@@ -25,28 +25,24 @@ public class Diamond {
 
     public void printIsoscelesTriangle(int number) {
         int row = 2 * number - 1;
-        for (int i = 1; i <= number; i++){
+        for (int i = 1; i <= number; i++) {
             int asteriskNumber = 2 * i - 1;
             printLine(row - asteriskNumber, asteriskNumber);
         }
     }
 
     public void printDiamond(int sideLength) {
-        int row = 2 * sideLength - 1;
-        for (int i = 1; i < 2 * sideLength; i++){
-            int spacekNumber = Math.abs(sideLength - i) * 2;
-            printLine(spacekNumber, row - spacekNumber);
-        }
+        printDiamondWithName(sideLength, null);
     }
 
     public void printDiamondWithName(int sideLength, String name) {
         int row = 2 * sideLength - 1;
-        for (int i = 1; i < 2 * sideLength; i++){
-            int spacekNumber = Math.abs(sideLength - i) * 2;
-            if (i == sideLength){
+        for (int i = 1; i < 2 * sideLength; i++) {
+            int spaceNumber = Math.abs(sideLength - i) * 2;
+            if (i == sideLength && name != null) {
                 print(name);
-            }else {
-                printLine(spacekNumber, row - spacekNumber);
+            } else {
+                printLine(spaceNumber, row - spaceNumber);
             }
         }
     }

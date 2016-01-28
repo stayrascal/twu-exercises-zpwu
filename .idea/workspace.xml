@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee47c49-1d96-4053-aeb9-5ff197c043b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java" afterPath="$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/exercises/Diamond.java" afterPath="$PROJECT_DIR$/src/com/twu/exercises/Diamond.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7402827">
-              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,16 +38,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.25795054">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/exercises/Console.java" />
         <option value="$PROJECT_DIR$/src/com/twu/exercises/Triangle.java" />
         <option value="$PROJECT_DIR$/test/com.twu.exercises/TriangleTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/exercises/Diamond.java" />
         <option value="$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/exercises/Diamond.java" />
       </list>
     </option>
   </component>
@@ -543,7 +545,7 @@
       <created>1453974246953</created>
       <option name="number" value="Default" />
       <updated>1453974246953</updated>
-      <workItem from="1453974249918" duration="5203000" />
+      <workItem from="1453974249918" duration="5850000" />
     </task>
     <task id="LOCAL-00001" summary="[ stayrascal ] add class Console and complete the test case that print one asterisk">
       <created>1453975368796</created>
@@ -587,15 +589,21 @@
       <option name="project" value="LOCAL" />
       <updated>1453980231336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[ stayrascal ] rename method print centered triangle">
+      <created>1453980692143</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1453980692143</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5203000" />
+    <option name="totallyTimeSpent" value="5850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -636,7 +644,9 @@
     <MESSAGE value="[ stayrascal ] complete the test case that print a centered triangle" />
     <MESSAGE value="[ stayrascal ] complete the test case that print a diamond" />
     <MESSAGE value="[ stayrascal ] complete the test case that print a diamond with name" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] complete the test case that print a diamond with name" />
+    <MESSAGE value="[ stayrascal ] rename method print centered triangle" />
+    <MESSAGE value="[ stayrascal ] refactor: extract method about draw diamond" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] refactor: extract method about draw diamond" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -674,25 +684,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/DiamondTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7402827">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.25795054">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
