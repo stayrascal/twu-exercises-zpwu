@@ -46,12 +46,4 @@ public class Diamond {
             }
         }
     }
-
-
-
-    /*public static void main(String[] args) {
-        Console console = new Console(new BufferedReader(new InputStreamReader(System.in)), new PrintStream(System.out));
-        Diamond diamond = new Diamond(console);
-        diamond.printDiamond(3);
-    }*/
 }
