@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aee47c49-1d96-4053-aeb9-5ff197c043b0" name="Default" comment="[ stayrascal ] add test case">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/exercises/Prime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com.twu.exercises/PrimeTest.java" />
+    <list default="true" id="aee47c49-1d96-4053-aeb9-5ff197c043b0" name="Default" comment="[ stayrascal ] add test case about factor one">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/exercises/Prime.java" afterPath="$PROJECT_DIR$/src/com/twu/exercises/Prime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com.twu.exercises/PrimeTest.java" afterPath="$PROJECT_DIR$/test/com.twu.exercises/PrimeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PrimeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/PrimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51943463">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prime.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Prime.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Prime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.6307421">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/exercises/Diamond.java" />
         <option value="$PROJECT_DIR$/test/com.twu.exercises/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/exercises/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/exercises/Prime.java" />
         <option value="$PROJECT_DIR$/test/com.twu.exercises/PrimeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/exercises/Prime.java" />
       </list>
     </option>
   </component>
@@ -595,7 +595,7 @@
       <created>1453974246953</created>
       <option name="number" value="Default" />
       <updated>1453974246953</updated>
-      <workItem from="1453974249918" duration="9031000" />
+      <workItem from="1453974249918" duration="9727000" />
     </task>
     <task id="LOCAL-00001" summary="[ stayrascal ] add class Console and complete the test case that print one asterisk">
       <created>1453975368796</created>
@@ -675,11 +675,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453984113925</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[ stayrascal ] add test case about factor one">
+      <created>1453984512026</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1453984512026</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9031000" />
+    <option name="totallyTimeSpent" value="9727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -730,7 +736,8 @@
     <MESSAGE value="[ stayrascal ] add test case about print continuous number" />
     <MESSAGE value="[ stayrascal ] add test case about print fizz or buzz" />
     <MESSAGE value="[ stayrascal ] refactor extract about print special message" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] refactor extract about print special message" />
+    <MESSAGE value="[ stayrascal ] add test case about factor one" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ stayrascal ] add test case about factor one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -820,20 +827,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Prime.java">
+    <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/PrimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com.twu.exercises/PrimeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/exercises/Prime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51943463">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6307421">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

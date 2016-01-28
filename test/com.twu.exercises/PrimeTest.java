@@ -16,4 +16,17 @@ public class PrimeTest {
         List<Integer> primeList = prime.generate(1);
         assertEquals(primeList.size(), 0);
     }
+
+    @Test
+    public void should_return_a_list_contains_2_3_5_when_factor_30() throws Exception {
+        Prime prime = new Prime();
+
+        List<Integer> primeList = prime.generate(30);
+
+        assertEquals(primeList.size(), 3);
+        assertEquals(primeList.get(0), Integer.valueOf(2));
+        assertEquals(primeList.get(1), Integer.valueOf(3));
+        assertEquals(primeList.get(2), Integer.valueOf(5));
+
+    }
 }
