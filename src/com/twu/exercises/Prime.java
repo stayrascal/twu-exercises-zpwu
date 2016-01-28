@@ -13,10 +13,11 @@ public class Prime {
 
     private List<Integer> getFactors(final int number) {
         List<Integer> factors = new ArrayList<>();
-        for (int index = 2, compositeNumber = number; index <= Math.sqrt(number) && compositeNumber != 1; index++) {
+        for (int index = 2, compositeNumber = number; index <= number && compositeNumber != 1; index++) {
             if (compositeNumber % index == 0) {
                 factors.add(index);
                 compositeNumber /= index;
+                index--;
             }
         }
         return factors;

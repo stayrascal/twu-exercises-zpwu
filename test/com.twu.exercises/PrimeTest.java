@@ -36,4 +36,13 @@ public class PrimeTest {
         List<Integer> primeList = prime.generate(-91);
         assertEquals(primeList.size(), 0);
     }
+
+    @Test
+    public void shoud_return_a_list_which_size_is_one_when_factor_seven() throws Exception {
+        Prime prime = new Prime();
+        List<Integer> primeList = prime.generate(7);
+        assertEquals(primeList.size(), 1);
+        assertEquals(primeList.get(0), Integer.valueOf(7));
+
+    }
 }
