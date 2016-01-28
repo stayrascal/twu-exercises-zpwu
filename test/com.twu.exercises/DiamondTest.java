@@ -22,7 +22,7 @@ public class DiamondTest {
     }
 
     @Test
-    public void should_print_a_centered_triangle_which_hight_is_3() throws Exception {
+    public void should_print_a_centered_triangle_which_side_length_is_3() throws Exception {
         diamond.printIsoscelesTriangle(3);
 
         verify(console).print("    *");
