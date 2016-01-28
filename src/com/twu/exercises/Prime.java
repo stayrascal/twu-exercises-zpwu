@@ -1,24 +1,22 @@
 package com.twu.exercises;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Prime {
 
 
-    public List<Integer> generate(final int number) {
-        List<Integer> factors = new ArrayList<>();
-        if (number <= 1){
-            return factors;
-        }
+    public List<Integer> generate(int number) {
+        return number < 1 ? Collections.emptyList() : getFactors(number);
+    }
 
-        for (int i = 2, compositeNumber = number; i <= Math.sqrt(number); i++){
-            if (compositeNumber % i == 0){
-                factors.add(i);
-                compositeNumber /= i;
-            }
-            if (compositeNumber == 1){
-                break;
+    private List<Integer> getFactors(final int number) {
+        List<Integer> factors = new ArrayList<>();
+        for (int index = 2, compositeNumber = number; index <= Math.sqrt(number) && compositeNumber != 1; index++) {
+            if (compositeNumber % index == 0) {
+                factors.add(index);
+                compositeNumber /= index;
             }
         }
         return factors;
