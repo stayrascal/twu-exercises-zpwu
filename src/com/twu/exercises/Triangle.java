@@ -9,6 +9,19 @@ public class Triangle {
     }
 
     public void printOneAsterisk() {
-        console.print("*");
+        print("*");
     }
+
+    private void print(String message) {
+        console.print(message);
+    }
+
+    public void printAhorizontalLine(int number) {
+        StringBuilder message = new StringBuilder();
+        while (number-- >0){
+            message.append("*");
+        }
+        print(message.toString());
+    }
+
 }

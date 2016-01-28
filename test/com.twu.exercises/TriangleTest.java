@@ -25,4 +25,13 @@ public class TriangleTest {
 
         verify(console).print("*");
     }
+
+    @Test
+    public void shoud_print_8_asterisk_on_one_line() throws Exception {
+
+        triangle.printAhorizontalLine(8);
+
+        verify(console).print("********");
+
+    }
 }
