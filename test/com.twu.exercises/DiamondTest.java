@@ -25,8 +25,8 @@ public class DiamondTest {
     public void should_print_a_centered_triangle_which_side_length_is_3() throws Exception {
         diamond.printIsoscelesTriangle(3);
 
-        verify(console).print("    *");
-        verify(console).print("  ***");
+        verify(console).print("  *");
+        verify(console).print(" ***");
         verify(console).print("*****");
     }
 
@@ -34,22 +34,22 @@ public class DiamondTest {
     public void should_print_a_centered_diamond_which_side_length_is_3() throws Exception {
         diamond.printDiamond(3);
 
-        inOrder.verify(console, times(1)).print("    *");
-        inOrder.verify(console, times(1)).print("  ***");
+        inOrder.verify(console, times(1)).print("  *");
+        inOrder.verify(console, times(1)).print(" ***");
         inOrder.verify(console, times(1)).print("*****");
-        inOrder.verify(console, times(1)).print("  ***");
-        inOrder.verify(console, times(1)).print("    *");
+        inOrder.verify(console, times(1)).print(" ***");
+        inOrder.verify(console, times(1)).print("  *");
     }
 
     @Test
     public void should_print_a_centered_diamond_with_name_Bill_which_side_length_is_3() throws Exception {
         diamond.printDiamondWithName(3, "Bill");
 
-        inOrder.verify(console, times(1)).print("    *");
-        inOrder.verify(console, times(1)).print("  ***");
+        inOrder.verify(console, times(1)).print("  *");
+        inOrder.verify(console, times(1)).print(" ***");
         inOrder.verify(console, times(1)).print("Bill");
-        inOrder.verify(console, times(1)).print("  ***");
-        inOrder.verify(console, times(1)).print("    *");
+        inOrder.verify(console, times(1)).print(" ***");
+        inOrder.verify(console, times(1)).print("  *");
 
     }
 }

@@ -12,22 +12,25 @@ public class Diamond {
         console.print(message);
     }
 
-    private void printLine(int spaceNumber, int asterisksNumber) {
+    private void printLine(int leftSpaceNumber, int asterisksNumber) {
         StringBuilder message = new StringBuilder();
-        while (spaceNumber-- > 0) {
+        while (leftSpaceNumber-- > 0) {
             message.append(" ");
         }
         while (asterisksNumber-- > 0) {
             message.append("*");
         }
+        while (leftSpaceNumber-- > 0) {
+            message.append(" ");
+        }
         print(message.toString());
     }
 
-    public void printIsoscelesTriangle(int number) {
-        int row = 2 * number - 1;
-        for (int i = 1; i <= number; i++) {
-            int asteriskNumber = 2 * i - 1;
-            printLine(row - asteriskNumber, asteriskNumber);
+    public void printIsoscelesTriangle(int sideLength) {
+        int row = 2 * sideLength - 1;
+        for (int i = 1; i <= sideLength; i++) {
+            int spaceNumber = sideLength - i;
+            printLine(spaceNumber, row - 2 * spaceNumber);
         }
     }
 
@@ -38,11 +41,11 @@ public class Diamond {
     public void printDiamondWithName(int sideLength, String name) {
         int row = 2 * sideLength - 1;
         for (int i = 1; i < 2 * sideLength; i++) {
-            int spaceNumber = Math.abs(sideLength - i) * 2;
+            int spaceNumber = Math.abs(sideLength - i);
             if (i == sideLength && name != null) {
                 print(name);
             } else {
-                printLine(spaceNumber, row - spaceNumber);
+                printLine(spaceNumber, row - 2 * spaceNumber);
             }
         }
     }
