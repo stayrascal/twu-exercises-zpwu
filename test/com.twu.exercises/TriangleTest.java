@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
 public class TriangleTest {
@@ -32,6 +33,13 @@ public class TriangleTest {
         triangle.printAhorizontalLine(8);
 
         verify(console).print("********");
+    }
+
+    @Test
+    public void should_print_3_asterisk_on_one_row() throws Exception {
+        triangle.printAverticalLine(3);
+
+        verify(console, times(3)).print("*");
 
     }
 }

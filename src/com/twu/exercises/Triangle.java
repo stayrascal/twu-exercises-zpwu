@@ -24,4 +24,9 @@ public class Triangle {
         print(message.toString());
     }
 
+    public void printAverticalLine(int number) {
+        while (number-- >0){
+            print("*");
+        }
+    }
 }
