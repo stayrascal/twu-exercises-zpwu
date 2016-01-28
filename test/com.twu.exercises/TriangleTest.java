@@ -30,16 +30,25 @@ public class TriangleTest {
     @Test
     public void shoud_print_8_asterisk_on_one_line() throws Exception {
 
-        triangle.printAhorizontalLine(8);
+        triangle.printAHorizontalLine(8);
 
         verify(console).print("********");
     }
 
     @Test
     public void should_print_3_asterisk_on_one_row() throws Exception {
-        triangle.printAverticalLine(3);
+        triangle.printAVerticalLine(3);
 
         verify(console, times(3)).print("*");
+    }
+
+    @Test
+    public void should_print_a_right_trangle() throws Exception {
+        triangle.printRightTriangle(3);
+
+        verify(console).print("*");
+        verify(console).print("**");
+        verify(console).print("***");
 
     }
 }

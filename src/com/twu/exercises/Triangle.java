@@ -12,11 +12,7 @@ public class Triangle {
         print("*");
     }
 
-    private void print(String message) {
-        console.print(message);
-    }
-
-    public void printAhorizontalLine(int number) {
+    public void printAHorizontalLine(int number) {
         StringBuilder message = new StringBuilder();
         while (number-- >0){
             message.append("*");
@@ -24,9 +20,19 @@ public class Triangle {
         print(message.toString());
     }
 
-    public void printAverticalLine(int number) {
+    public void printAVerticalLine(int number) {
         while (number-- >0){
             print("*");
+        }
+    }
+
+    private void print(String message) {
+        console.print(message);
+    }
+
+    public void printRightTriangle(int number) {
+        for (int i = 1; i <= number; i++){
+            printAHorizontalLine(i);
         }
     }
 }
