@@ -31,11 +31,11 @@ public class FizzBuzz {
         }
     }
 
-    private void printFizzOrFizzBuzz(int number, String divisibleMessage, String inDivisibleMessage) {
+    private void printFizzOrFizzBuzz(int number, String divisibleByFiveMessage, String inDivisibleByFiveMessage) {
         if (isDivisibleByFive(number)) {
-            printLine(divisibleMessage);
+            printLine(divisibleByFiveMessage);
         } else {
-            printLine(inDivisibleMessage);
+            printLine(inDivisibleByFiveMessage);
         }
     }
 
